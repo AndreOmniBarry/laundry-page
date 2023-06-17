@@ -1,11 +1,12 @@
 /* General Styling */
 header {
-        
+    color: #1b5266;   
     display: flex;
     justify-content:space-between;
     padding: none;
     justify-content: right; 
     margin-bottom: 40px; 
+    font-family: 'Quicksand', sans-serif;
 }
 
 .logo {
@@ -19,7 +20,6 @@ header {
 .navbar li {
     display: inline-block;
     padding: 30px;
-    
 }
 
 body {
@@ -41,7 +41,8 @@ body {
     background-color: #87CEEB;
     color: #fff;
     text-align: center;
-    padding: 100px 0;
+    padding: 30px;
+    margin: 5px;
   }
   
   .hero-section {
@@ -50,26 +51,34 @@ body {
   }
   
   .hero h1 {
-    font-size: 36px;
-  }
+    font-size: 76px;
+    font-family: 'Moirai One', cursive;
+    color: #283960;
+    font: bolder;
+}
   
   .hero p {
-    font-size: 18px;
+    font-size: 22px;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: solid;
   }
   
   .cta {
     display: inline-block;
     padding: 10px 20px;
     background-color: #1b5266;
-    color: #87CEEB;
+    color:#fff;
     text-decoration: none;
     margin-top: 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
   }
   
   .cta:hover {
-    background-color: #fff;
+    background-color: #ffffffb8;
     color: #1b5266;
   }
   
@@ -77,6 +86,9 @@ body {
   .product-section {
     padding: 50px 0;
     text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: #1b5266;
+
   }
   
   .product-grid {
@@ -108,10 +120,12 @@ body {
   
   /* Footer */
   .footer {
+    font-family: 'Eczar', serif;
     background-color: #87CEEB;
     color: #fff;
     text-align: center;
     padding: 20px 0;
-    font-size: 14px;
+    font-size: 16px;
   }
+
   
